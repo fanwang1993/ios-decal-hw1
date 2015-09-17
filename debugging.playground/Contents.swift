@@ -11,12 +11,12 @@ import UIKit
 
 class Foo {
     
-    var wordA : String!
-    var wordB : String!
+    var wordA : String
+    var wordB : String
     
     init (words: [String?]) {
-        wordA = words[0]
-        wordB = words[1]
+        wordA = words[0]!
+        wordB = words[1]!
     }
     
 //: [EXPLAIN YOUR ANSWER TO Q1 HERE]
